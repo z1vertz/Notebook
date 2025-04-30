@@ -7,8 +7,6 @@ import time
 import os
 
 
-os.environ['TCL_LIBRARY'] = r'C:\Users\z1vertz\AppData\Local\Programs\Python\Python313\tcl\tcl8.6'
-
 # Создаем базу данных для хранения заметок
 def init_db():
     conn = sqlite3.connect('notes.db')
